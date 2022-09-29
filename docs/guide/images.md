@@ -7,3 +7,5 @@ How to handle images and assets in the documentation
 ```md
 ![An image](/image-inside-public.png)
 ```
+
+![An image](/placeholder-500.jpg)
