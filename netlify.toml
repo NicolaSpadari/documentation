@@ -1,0 +1,7 @@
+[build.environment]
+    NPM_FLAGS = "--version"
+    NODE_VERSION = "17.6.0"
+
+[build]
+    publish = "docs/.vitepress/dist"
+    command = "npm i && npm run docs:build"
