@@ -1,6 +1,6 @@
 # Code blocks
 
-various code block styles
+Various code block styles
 
 ## Example 1: `js`
 

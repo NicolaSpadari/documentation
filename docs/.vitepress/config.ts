@@ -19,7 +19,7 @@ export default defineConfig({
     nav: nav(),
 
     sidebar: {
-      "/guide/": sidebarGuide()
+      "/demo/": sidebarGuide()
     },
 
     socialLinks: [
@@ -35,7 +35,7 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: "Guide", link: "/guide/text", activeMatch: "/guide/" },
+    { text: "Guide", link: "/demo/text", activeMatch: "/demo/" },
     {
       text: version,
       items: [
@@ -54,21 +54,21 @@ function sidebarGuide() {
       text: "Typography",
       collapsible: true,
       items: [
-        { text: "Text", link: "/guide/text" },
-        { text: "Code", link: "/guide/code" }
+        { text: "Text", link: "/demo/text" },
+        { text: "Code", link: "/demo/code" }
       ]
     },
     {
       text: "Elements",
       collapsible: true,
       items: [
-        { text: "Collapsible", link: "/guide/collapsible" },
-        { text: "Images", link: "/guide/images" },
-        { text: "Table", link: "/guide/table" },
-        { text: "List", link: "/guide/bullet-list" },
-        { text: "Tip and warning", link: "/guide/tip-warn" },
-        { text: "Code links", link: "/guide/code-links" },
-        { text: "Vue components", link: "/guide/vue-components" }
+        { text: "Collapsible", link: "/demo/collapsible" },
+        { text: "Images", link: "/demo/images" },
+        { text: "Table", link: "/demo/table" },
+        { text: "List", link: "/demo/bullet-list" },
+        { text: "Tip and warning", link: "/demo/tip-warn" },
+        { text: "Code links", link: "/demo/code-links" },
+        { text: "Vue components", link: "/demo/vue-components" }
       ]
     }
   ];
