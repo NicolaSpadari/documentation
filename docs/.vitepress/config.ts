@@ -30,6 +30,12 @@ export default defineConfig({
       message: "Released under the MIT License.",
       copyright: "Copyright © 2022-present Nicola Spadari"
     }
+  },
+  vite: {
+    server: {
+        host: true,
+        port: 3000
+    }
   }
 });
 
